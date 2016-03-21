@@ -82,7 +82,7 @@ plot3 <- function() {
            legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
             
     # --- save to file ---
-    dev.copy(png, paste0(dataFolder, fnamePlot))
+    dev.copy(png, paste0(dataFolder, fnamePlot), width=480, height=480)
     dev.off()
     
     
