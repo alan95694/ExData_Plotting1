@@ -70,7 +70,7 @@ plot2 <- function() {
           ylab = "Global Active Power (kilowatts)" )
     
     # --- save to file ---
-    dev.copy(png, paste0(dataFolder, fnamePlot))
+    dev.copy(png, paste0(dataFolder, fnamePlot), width=480, height=480)
     dev.off()
     
     
