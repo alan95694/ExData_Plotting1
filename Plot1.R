@@ -67,7 +67,7 @@ plot1 <- function() {
          main = "Global Active Power")
     
     # --- save to file ---
-    dev.copy(png, paste0(dataFolder, fnamePlot))
+    dev.copy(png, paste0(dataFolder, fnamePlot), width=480, height=480)
     dev.off()
     
     
